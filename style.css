@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.group {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 20px;
+}
+.group-arrow {
+	display: flex;
+	gap: 5px;
+}
+.right-arrow {
+	margin-top: 5px;
+	width: 30px;
+	height: 15px;
+}
+.group-num {
+	display: flex;
+	gap: 40px;
+}
+.mid-group {
+	margin-left: 20px;
+	display: flex;
+	gap: 40px;
+}
+.period-arrow {
+	width: 1030px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 0px auto;
+}
+.down-arrow {
+	height: 30px;
+	width: 15px;
+	margin-left: 20px;
+}
+.period {
+	display: flex;
+	flex-direction: column;
+	width: 1050px;
+	margin: 0px auto 70px;
+}
+.period-lane {
+	display: flex;
+	gap: 40px;
+	margin-top: 10px;
+}
+.period-num {
+	margin-left: 7px;
+	width: 60px;
+}
+.period-num h4 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 50px;
+}
+.period-el {
+	display: flex;
+	width: 945px;
+	justify-content: space-between;
+}
+.period-el .element {
+	background-color: #ff9999;
+}
+.left {
+	display: flex;
+	gap: 7px;
+}
+.left .element {
+	background-color: #ff9999;
+}
+.right .element {
+	background-color: #fdff8c;
+}
+.mid {
+	display: flex;
+	gap: 11px;
+	margin-right: -14px;
+}
+.mid .element {
+	background-color: #99ccff;
+}
+.star {
+	font-weight: 700;
+	margin-top: 10px;
+	margin-left: -20px;
+}
+.double-star {
+	font-weight: 700;
+	margin-top: 3px;
+	margin-left: -20px;
+}
+.right {
+	display: flex;
+	gap: 14px;
+}
+.element {
+	display: flex;
+	border: 1.5px solid black;
+	border-radius: 10px;
+	flex-direction: column;
+	width: 40px;
+	align-items: center;
+}
+.extra-period-lane {
+	display: flex;
+	gap: 40px;
+	margin-top: 10px;
+}
+.extra-period-num {
+	visibility: hidden;
+	margin-left: 7px;
+	width: 60px;
+}
+.extra-period-el {
+	display: flex;
+	width: 945px;
+	justify-content: space-between;
+}
+.extra-left {
+	visibility: hidden;
+	display: flex;
+	gap: 7px;
+}
+.extra-mid {
+	display: flex;
+	gap: 11px;
+	margin-right: -14px;
+}
+.star {
+	font-weight: 700;
+	margin-top: 10px;
+	margin-left: -20px;
+}
+.double-star {
+	font-weight: 700;
+	margin-top: 3px;
+	margin-left: -20px;
+}
+.extra-right {
+	display: flex;
+	gap: 14px;
+}
+.hid {
+	visibility: hidden;
+}
+.ex .element {
+	background-color: #9bff99;
+}
